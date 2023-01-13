@@ -1,16 +1,12 @@
-name: binder-environment
+name: example-environment
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - matplotlib
+  - python
   - numpy
-  - pandas
-  - polars
   - pip
-  - scikit-learn
-  - scipy
-  - seaborn
-  - statsmodels
   - pip:
-    - datascience
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
