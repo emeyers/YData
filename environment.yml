@@ -1,0 +1,26 @@
+name: binder-environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - beautifulsoup4
+  - bokeh
+  - dask
+  - geopandas
+  - matplotlib
+  - numpy
+  - pandas
+  - plotly
+  - polars
+  - pip
+  - pybind11
+  - pycurl
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - statsmodels
+  - sympy
+  - pip:
+    - datascience
+    - https://github.com/emeyers/YData_package/tarball/master
