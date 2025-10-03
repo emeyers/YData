@@ -30,6 +30,7 @@ psycopg2
 pycurl
 pymysql
 # python   # don't need this for uv 
+requests
 torch
 scikit-image
 scikit-learn
